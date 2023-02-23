@@ -9,7 +9,7 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
 
 /* Navigasi*/
 #main-navbar a {
-    border-bottom: 5px solid var(--bs-body-bg);;
+    border-bottom: 5px solid var(--bs-body-bg);
     text-transform: uppercase;
 }
 
