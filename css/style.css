@@ -3,8 +3,9 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
 1. Navigasi
 2. Showcase
 3. Product
+4. Main footer
+5. Second Footer
 */
-
 
 /* Navigasi */
 #main-navbar a {
@@ -20,7 +21,7 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
 
 /* SHOWCASE */
 #showcase {
-    background: url("../img/showcase_bg.jpg");
+    background: url("../images/home/showcase_bg.jpg");
     height: 600px;
     padding-top: 150px;
     background-size: cover;
@@ -41,11 +42,23 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
 }
 
 /* PRODUCT */
-
 #product i[class^="bi"]{
     font-size: 4rem;
 }
 
 .font{
     color: whitesmoke;
+}
+
+/*MAIN-FOOTER*/
+.main-footer {
+    position: absolute;
+}
+
+/*SECOND-FOOTER*/
+.second-footer {
+    position: relative;
+    top: 30px;
+    right: auto;
+    left: auto;
 }
