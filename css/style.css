@@ -18,7 +18,13 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
     transition: border-color 500ms;
 }
 
-
+/* explore */
+#explore {
+    background-color: var(--bs-body-text);
+}
+.explore-text {
+    color: var(--bs-body-text);
+}
 /* SHOWCASE */
 #showcase {
     background: url("../images/home/showcase_bg.jpg");
@@ -54,6 +60,7 @@ Code create by Anathapindika Surja Putra & Dhimas Bagus Utomo
 .main-footer {
     position: absolute;
 }
+
 
 /*SECOND-FOOTER*/
 .second-footer {
