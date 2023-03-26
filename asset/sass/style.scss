@@ -1,0 +1,92 @@
+/*
+Code create by Anathapindika Surja Putra 
+1. Navigasi
+2. Showcase
+3. Product
+4. Main footer
+5. Second Footer
+*/
+
+$bodyColor: var(--bs-body-bg);
+$textColor: var(--bs-body-text);
+
+
+/*Smooth Scroll*/
+:root {
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+#main-navbar 
+    .active {
+    border-bottom-color: $textColor ;
+    transition: border-color 500ms;
+    }
+    #main-navbar a{
+    border-bottom: 5px solid $bodyColor;
+    text-transform: uppercase;
+    &:hover{
+        border-bottom-color: $textColor;
+        transition: border-color 500ms;
+    }
+}
+.button-dark-mode {
+    margin-left: 20px;
+}
+
+/*explore*/
+#explore {
+    background-color: $textColor;
+}
+.explore-text {
+    color: $textColor;
+}
+
+/*Showcase*/
+#showcase {
+    background: url('../images/home/showcase_bg.jpg');
+    height: 700px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    h1 {
+        padding-top: 250px;   
+    }
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+/*Product*/
+#product i[class^="bi"]{
+    font-size: 4rem;
+}
+.font {
+    color: whitesmoke;
+}
+
+/*Footer*/
+.main-footer {
+    position: absolute;
+}
+
+.second-footer {
+    position: relative;
+    top: 30px;
+    right: auto;
+}
+
+/*Responsive*/
+@media (max-width: 1028px) {
+
+    .card-section {
+        padding-top: 10px;
+    }
+
+}

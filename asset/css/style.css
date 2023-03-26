@@ -6,83 +6,85 @@ Code create by Anathapindika Surja Putra
 4. Main footer
 5. Second Footer
 */
-
-/*Smooth scroll*/
+/*Smooth Scroll*/
 :root {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-/* Navigasi*/
+/*Navbar*/
+#main-navbar .active {
+  border-bottom-color: var(--bs-body-text);
+  transition: border-color 500ms;
+}
+
 #main-navbar a {
-    border-bottom: 5px solid var(--bs-body-bg);
-    text-transform: uppercase;
+  border-bottom: 5px solid var(--bs-body-bg);
+  text-transform: uppercase;
 }
-
-#main-navbar a:hover, #main-navbar .active {
-    border-bottom-color: var(--bs-body-text);
-    transition: border-color 500ms;
+#main-navbar a:hover {
+  border-bottom-color: var(--bs-body-text);
+  transition: border-color 500ms;
 }
 
 .button-dark-mode {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-/* explore */
+/*explore*/
 #explore {
-    background-color: var(--bs-body-text);
+  background-color: var(--bs-body-text);
 }
+
 .explore-text {
-    color: var(--bs-body-text);
+  color: var(--bs-body-text);
 }
 
-/* SHOWCASE */
+/*Showcase*/
 #showcase {
-    background: url("../images/home/showcase_bg.jpg");
-    height: 700px;
-    padding-top: 150px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background: url("../images/home/showcase_bg.jpg");
+  height: 700px;
+  padding-top: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-
 #showcase h1 {
-    padding-top: 250px;
+  padding-top: 250px;
 }
 
-.dark-overlay{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0;
-    width: 100%;
-    min-height: 600px;
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
 }
 
-/* PRODUCT */
-#product i[class^="bi"]{
-    font-size: 4rem;
+/*Product*/
+#product i[class^=bi] {
+  font-size: 4rem;
 }
 
-.font{
-    color: whitesmoke;
+.font {
+  color: whitesmoke;
 }
 
-/*FOOTER*/
+/*Footer*/
 .main-footer {
-    position: absolute;
+  position: absolute;
 }
 
 .second-footer {
-    position: relative;
-    top: 30px;
-    right: auto;
-    left: auto;
+  position: relative;
+  top: 30px;
+  right: auto;
 }
 
-/* Responsive */
+/*Responsive*/
 @media (max-width: 1028px) {
-
-    .card-section  { 
-        padding-top: 10px;
-    }
-
+  .card-section {
+    padding-top: 10px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
